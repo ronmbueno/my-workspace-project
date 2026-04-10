@@ -25,3 +25,5 @@ The starter has `add` and `subtract` — you will add more operations through Gi
 ```bash
 node test.js
 ```
+## License
+MIT
