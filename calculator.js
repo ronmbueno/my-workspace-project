@@ -20,3 +20,9 @@ function divide(a, b) {
 }
 
 module.exports = { add, subtract, multiply, divide };
+
+function power(base, exponent) {
+    return Math.pow(base, exponent);
+}
+
+module.exports.power = power;

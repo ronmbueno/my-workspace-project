@@ -12,3 +12,5 @@ try {
 } catch (e) {
     console.log('Testing divide by zero:', e.message === 'Cannot divide by zero' ? 'PASS' : 'FAIL');
 }
+const { power } = require("./calculator");
+console.log("Testing power:", power(2, 3) === 8 ? "PASS" : "FAIL");
